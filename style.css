@@ -451,3 +451,10 @@ footer {
     }
 }
 
+/* Keyboard accessibility: visible focus styles */
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid #FF2625;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
